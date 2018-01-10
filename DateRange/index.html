@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <style>
+    body {
+      padding-top: 50px;
+    }
+    input + label {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="well">
+      <form id="dateRangeForm" class="form-horizontal">
+        <div class="form-group">
+          <input type="date" class="form-control" name="startDate" id="startDate">
+        </div>
+        <div class="form-group">
+          <input type="date" class="form-control" name="endDate" id="endDate">
+        </div>
+        <div class="form-group">
+          <input 
+          type="submit" 
+          value="Send it!" 
+          name="submit" 
+          id="submit"
+          class="btn btn-default">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.js"></script>
+  <script src="dateRange.js"></script>
+</body>
+</html>
