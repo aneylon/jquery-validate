@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JQuery Validate Plugin - Basics</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css"> -->
+</head>
+<body>
+
+  <form action="" method="" id="formProperties">
+    <div class="form-group">
+      <input type="text" name="userName" id="userName" placeholder="User Name" required>
+    </div>
+    <input type="email" name="email" id="email" placeholder="E-mail" required>
+    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" required>
+    <input type="password" name="password" id="password" placeholder="Password" required>
+    <input type="password" name="passwordTwo" id="passwordTwo" placeholder="Verify Password" equalTo="#password" required>
+    <input type="submit" value="Send It">
+  </form>
+  <form action="" method="" id="jsForm">
+    <input name="thingOne" id="thingOne" placeholder="One Thing" type="text">
+    <input type="submit" value="Do It">
+  </form>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.js"></script>
+  <script src="Basics.js"></script>
+</body>
+</html>
